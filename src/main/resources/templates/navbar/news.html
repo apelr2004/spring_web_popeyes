@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Popeyes</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+    <style>
+        h3 {
+            margin-right: 70px;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        #event .event_wrap{
+            width:100%; max-width:1290px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #event .event_wrap ul li{
+            display: flex; justify-content:space-between;
+        }
+
+        #event .event_wrap ul li .text .text1{
+            margin-top:20px;
+            font-size:15px; color:#666;
+        }
+
+        #event .event_wrap ul li .text .text2{
+            margin-top:20px;
+            font-size:18px; color:#000;
+        }
+
+        #event .event_wrap ul li .text .event_btn{
+            display: inline-block;
+            font-size:18px; color:#fff;
+            border-radius:25px; background:#ff7c00;
+            padding:5px 38px;
+        }
+
+        #event .event_wrap ul li .img_box{
+            border-radius:15px; overflow: hidden;
+            width: 70%;
+        }
+
+        #news .news_wrap{
+            width:100%; max-width:1290px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #news .news_wrap ul li{
+            display: flex; justify-content:space-between;
+        }
+
+        #news .news_wrap ul li .text .text1{
+            margin-top:20px;
+            font-size:15px; color:#666;
+        }
+
+        #news .news_wrap ul li .text .text2{
+            margin-top:20px;
+            font-size:18px; color:#000;
+        }
+
+        #news .news_wrap ul li .text .event_btn{
+            display: inline-block;
+            font-size:18px; color:#fff;
+            border-radius:25px; background:#ff7c00;
+            padding:5px 38px;
+        }
+
+        #news .news_wrap ul li .img_box{
+            border-radius:15px; overflow: hidden;
+            width: 60%;
+        }
+
+        /* ! footer start */
+
+        #footer {
+            width:100%; background:#1F1F1F;
+        }
+
+        #footer .footer_wrap{
+            width:100%; max-width:1290px; margin:0 auto; padding:50px 0;
+            color:#fff;
+        }
+        #footer .footer_wrap p{
+            margin-bottom:10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* ! footer end */
+    </style>
+</head>
+<body>
+<div class="container py-3">
+    <header>
+        <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <section id="banner">
+                <img src="/img/icon/logo.jpg" alt="logo" height="70" width="140">
+            </section>
+            <a style="font-size:25px">
+                <span>&nbsp파파이스</span>
+            </a>
+
+            <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                <h3><a class="me-3 py-2 text-dark text-decoration-none" href="/main">홈&nbsp</a></h3>
+                <h3><a class="me-3 py-2 text-dark text-decoration-none" href="/navbar/history">소개&nbsp</a></h3>
+                <h3><a class="me-3 py-2 text-dark text-decoration-none" href="/navbar/product">상품&nbsp</a></h3>
+                <h3><a class="me-3 py-2 text-dark text-decoration-none" href="/navbar/news">공지사항 및 이벤트&nbsp</a></h3>
+                <h3><a class="py-2 text-dark text-decoration-none" href="/board/list">문의사항</a></h3>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <section id="news">
+            <h2 class="title">NEWS</h2>
+            <div class="news_wrap">
+                <ul>
+                    <li>
+                        <div class="text">
+                            <p class="text1">혼자라도 OK, 둘이라도 OK</p>
+                            <p class="text2">'오! 케이준 치킨 출시'</p>
+                            <a href="/news/news1" class="event_btn">자세히 보기</a>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/news/news.jpg" alt="" width="400" height="200">
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="text">
+                            <p class="text1">파파이스 가격 인상 안내</p>
+                            <p class="text2">4/15~ 매장,배달 차등 가격 안내</p>
+                            <a href="/news/news2" class="event_btn">자세히 보기</a>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/news/news2.jpg" alt="" width="400" height="200">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="event">
+            <h2 class="title">EVENT</h2>
+            <div class="event_wrap">
+                <ul>
+                    <li>
+                        <div class="text">
+                            <p class="text1">월,화,수에만 드리는 5900원의 혜택!</p>
+                            <p class="text2">치킨 샌드위치 세트 <br>5,900원</p>
+                            <a href="/news/event1" class="event_btn">자세히 보기</a>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/news/event.jpg" alt="" width="400" height="200">
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="text">
+                            <p class="text1">'빅' 아메리카노와 초코 바나나 파이가 2,400원?!</p>
+                            <p class="text2">50% 할인가로 라바짜 원두의<br>
+                                커피와 초코바나나 파이를<br>즐겨보세요!</p>
+                            <a href="/news/event2" class="event_btn">자세히 보기</a>
+                        </div>
+                        <div class="img_box">
+                            <img src="/img/news/event2.jpg" alt="" width="400" height="200">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer id="footer">
+        <div class="footer_wrap">
+            <p class="address">주식회사 넌럭셔리어스컴퍼니 | 대표이사: 강두진 | 사업자등록번호: 564-86-02428 | 전화: 02-424-1750 | 주소: 서울시 송파구 백제고분로 362 5층</p>
+            <p class="copy">COPYRIGHT © 2023 Popeyes Louisiana Kitchen, Inc. Used under license. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
